@@ -42,6 +42,9 @@ The data preprocessing files are in the *data* directory. Running these scripts 
 - `python train_dist.py --dataset cifar10 --datatype PHSI --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150`
 - `python train_dist.py --dataset cifar100 --datatype PHSI --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150`
 
+### Inference Tri-Form Models
+The pre-trained model can be found in <a href="https://drive.google.com/drive/folders/172unB7hKEKn2gdMd75ytj6ICQ7gONX4q?usp=sharing">Tri-Former model</a>.
+
 ## AGT Tuning
 
 #### Salinas 2 Indian pines
@@ -63,22 +66,22 @@ The data preprocessing files are in the *data* directory. Running these scripts 
 #### PaviaC 2 PaviaU
 - `python train_adapter.py --dataset PaviaU --freeze_model_dir '/home/disk1/result/trihit/PaviaC/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150`
 
-#### cifar 2 Indian pines
+#### Cifar 2 Indian pines
 - `python train_adapter.py --dataset Indian_pines --freeze_model_dir '/home/disk1/result/trihit/cifar/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150`
 
-#### cifar 2 HoustonU
+#### Cifar 2 HoustonU
 - `python train_adapter.py --dataset HoustonU --freeze_model_dir '/home/disk1/result/trihit/cifar/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150`
 
-#### cifar 2 PaviaU
+#### Cifar 2 PaviaU
 - `python train_adapter.py --dataset PaviaU --freeze_model_dir '/home/disk1/result/trihit/cifar/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150`
 
 ### Inference with Models
-Please edit eval_dp.py, enter the model path and test data set in the parameter section, and run eval.py to test the model results.
+Please edit *eval_dp.py*, enter the model path and test data set in the parameter section, and run eval.py to test the model results.
 
 
 
 
-Pick a model from [model zoo](MODEL_ZOO.md). More models trained with different samples are coming !
+Pick the fintuned-model from [model zoo](MODEL_ZOO.md). More models trained with different samples are coming !
 ## Model Zoo
 <table><tbody>
 <!-- START TABLE -->
@@ -91,40 +94,13 @@ Pick a model from [model zoo](MODEL_ZOO.md). More models trained with different 
 <th valign="bottom">K%</th>
 <th valign="bottom">Download</th>
 <!-- TABLE BODY -->
-<!-- ROW: maskformer2_R50_bs16_50ep -->
- <tr><td align="center">Tri-Former</td>
-<td align="center">India Pines</td>
-<td align="center">150 pixel/class</td>
-<td align="center">98.41</td>
-<td align="center">97.87</td>
-<td align="center">98.17</td>
-<td align="center"><a href="https://drive.google.com/file/d/14dmR7TWcbU9DziLVEGxTWhYRiuT8kBDk/view?usp=sharing">model</a></td>
-</tr>
-<!-- ROW: maskformer2_R101_bs16_50ep -->
- <tr><td align="center">Tri-Former</td>
-<td align="center">Pavia University</td>
-<td align="center">150 pixel/class</td>
-<td align="center">99.88</td>
-<td align="center">98.86</td>
-<td align="center">99.83</td>
-<td align="center"><a href="https://drive.google.com/file/d/1uttHmxQM4yKvDaLFEUBQAp1ITnoKIt_2/view?usp=sharing">model</a></td>
-</tr>
-<!-- ROW: maskformer2_swin_tiny_bs16_50ep -->
- <tr><td align="center">Tri-Former</td>
-<td align="center">Houston University</td>
-<td align="center">150 pixel/class</td>
-<td align="center">99.05</td>
-<td align="center">99.26</td>
-<td align="center">98.97</td>
-<td align="center"><a href="https://drive.google.com/file/d/16yMv7uhwdHKlEce3prtNno6bBnJRrGUP/view?usp=sharing">model</a></td>
-</tr>
 <!-- ROW: maskformer2_swin_small_bs16_50ep -->
  <tr><td align="center">AGT+Tri-Former</td>
 <td align="center">Salinas 2 Indian Pines</td>
 <td align="center">50 pixel/class</td>
-<td align="center">94.54</td>
-<td align="center">97.63</td>
-<td align="center">93.64</td>
+<td align="center">94.83</td>
+<td align="center">97.62</td>
+<td align="center">94.07</td>
 <td align="center"><a href="https://drive.google.com/file/d/19dU3Uwfcfvt2N4nIqiv1xPmWdvcqqq4o/view?usp=sharing">model</a></td>
 </tr>
 <!-- ROW: maskformer2_swin_base_384_bs16_50ep -->
@@ -143,33 +119,6 @@ Pick a model from [model zoo](MODEL_ZOO.md). More models trained with different 
 <td align="center">92.65</td>
 <td align="center">93.86</td>
 <td align="center">92.05</td>
-<td align="center"><a href="https://drive.google.com/file/d/1-iy1KUnz0VxN_Oqj5Vek00tgnEQv2iJV/view?usp=sharing">model</a></td>
-</tr>
-<!-- ROW: maskformer2_swin_small_bs16_50ep -->
- <tr><td align="center">AGT+Tri-Former</td>
-<td align="center">PaviaC 2 Indian Pines</td>
-<td align="center">50 pixel/class</td>
-<td align="center">94.83</td>
-<td align="center">97.62</td>
-<td align="center">94.07</td>
-<td align="center"><a href="https://drive.google.com/file/d/1CgY7Tc2Q4KMulmT9_NoxZqBKogocLVeV/view?usp=sharing">model</a></td>
-</tr>
-<!-- ROW: maskformer2_swin_base_384_bs16_50ep -->
- <tr><td align="center">AGT+Tri-Former</td>
-<td align="center">PaviaC 2 Pavia University</td>
-<td align="center">50 pixel/class</td>
-<td align="center">98.04</td>
-<td align="center">98.01</td>
-<td align="center">93.26</td>
-<td align="center"><a href="https://drive.google.com/file/d/1XkPYGo71rFlho254zsUqs1l03fYHhywz/view?usp=sharing">model</a></td>
-</tr>
-<!-- ROW: maskformer2_swin_base_IN21k_384_bs16_50ep -->
- <tr><td align="center">AGT+Tri-Former</td>
-<td align="center">PaviaC 2 Houston University</td>
-<td align="center">50 pixel/class</td>
-<td align="center">93.26</td>
-<td align="center">94.33</td>
-<td align="center">92.71</td>
 <td align="center"><a href="https://drive.google.com/file/d/1-iy1KUnz0VxN_Oqj5Vek00tgnEQv2iJV/view?usp=sharing">model</a></td>
 </tr>
 </tbody></table>
