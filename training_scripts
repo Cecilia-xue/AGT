@@ -1,0 +1,48 @@
+# indian pines
+python train_dist.py --dataset Indian_pines --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 300
+
+
+# Pavia University
+python train_dist.py --dataset PaviaU --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 300
+
+# Pavia Center
+python train_dist.py --dataset PaviaC --model_name trihit_cth --sample_list cp --batch_size 12  --epochs 300
+
+# houstonu
+python train_dist.py --dataset HoustonU --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 300
+
+# Salinas
+python train_dist.py --dataset Salinas --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 300
+
+# Cifar
+python train_dist.py --dataset cifar10 --datatype PHSI --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150
+python train_dist.py --dataset cifar100 --datatype PHSI --model_name trihit_cth --sample_list cp --batch_size 12 --epochs 150
+
+#Salinas 2 indian pines
+python train_adapter.py --dataset Indian_pines --freeze_model_dir '/home/disk1/result/trihit/Salinas/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5 --sample_list ab_50 --batch_size 24  --epochs 150
+
+#Salinas 2 HoustonU
+python train_adapter.py --dataset HoustonU --freeze_model_dir '/home/disk1/result/trihit/Salinas/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#Salinas 2 PaviaU
+python train_adapter.py --dataset PaviaU --freeze_model_dir '/home/disk1/result/trihit/Salinas/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#PaviaC 2 indian pines
+python train_adapter.py --dataset Indian_pines --freeze_model_dir '/home/disk1/result/trihit/PaviaC/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#PaviaC 2 HoustonU
+python train_adapter.py --dataset HoustonU --freeze_model_dir '/home/disk1/result/trihit/PaviaC/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#PaviaC 2 PaviaU
+python train_adapter.py --dataset PaviaU --freeze_model_dir '/home/disk1/result/trihit/PaviaC/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#cifar 2 Indian pines
+python train_adapter.py --dataset Indian_pines --freeze_model_dir '/home/disk1/result/trihit/cifar/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#cifar 2 HoustonU
+python train_adapter.py --dataset HoustonU --freeze_model_dir '/home/disk1/result/trihit/cifar/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+#cilfar 2 PaviaU
+python train_adapter.py --dataset PaviaU --freeze_model_dir '/home/disk1/result/trihit/cifar/trihit_cth_cp/trihit_cth_best.pth' --model_name trihit_cth_sdt_r5  --sample_list ab_50 --batch_size 24  --epochs 150
+
+
