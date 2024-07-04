@@ -5,9 +5,10 @@ Xizhe Xue, Haokui Zhang, Rong Xiao, Ying Li，Zongwen Bai, Mike Zheng Shou
 [[`arXiv`](https://arxiv.org/abs/2309.12865)] [[`BibTeX`](#CitingAGT)]
 
 <div align="center"
-  <img src="https://github.com/Cecilia-xue/picx-images-hosting/raw/master/graphic-abstract.2doko6fnqq.webp" width="100%" height="100%"/>
-</div><br/>
 
+  ![graphic-abstract](https://cdn.statically.io/gh/Cecilia-xue/picx-images-hosting@master/graphic-abstract.2doko6fnqq.webp)
+  
+</div><br/>
 ## Features
 
 * Attention-Gated tuning approach for HSI Classification.
