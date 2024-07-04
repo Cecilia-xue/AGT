@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0411e926-c2bf-4f74-bd01-7dc8244f4366" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ccEdRp0G4aPis9SSIVVDjifdNP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github/AGT&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\TriHiT-adapter-xxz\command" />
+      <recent name="D:\01_codes\TriHiT-adapter-xxz\models\models_adpater_backup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\TriHiT-adapter-xxz\command" />
+      <recent name="D:\project\TriHiT-adapter-xxz" />
+      <recent name="D:\project\TriHiT-adapter-xxz\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.eval_dp">
+    <configuration name="convert2hsi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TriHiT-adapter-xxz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/cifar_preprocess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/cifar_preprocess/convert2hsi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eval_dp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TriHiT-adapter-xxz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval_dp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_distribution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TriHiT-adapter-xxz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/hsi_preprocess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/hsi_preprocess/sample_distribution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_adapter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TriHiT-adapter-xxz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_adapter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_dist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TriHiT-adapter-xxz" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_dist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.eval_dp" />
+        <item itemvalue="Python.convert2hsi" />
+        <item itemvalue="Python.sample_distribution" />
+        <item itemvalue="Python.train_dist" />
+        <item itemvalue="Python.train_adapter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0411e926-c2bf-4f74-bd01-7dc8244f4366" name="Default Changelist" comment="" />
+      <created>1708402553546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708402553546</updated>
+      <workItem from="1708402555801" duration="999000" />
+      <workItem from="1708481121223" duration="2881000" />
+      <workItem from="1708496083709" duration="3025000" />
+      <workItem from="1708564187849" duration="202000" />
+      <workItem from="1708674056005" duration="15580000" />
+      <workItem from="1708704245611" duration="27000" />
+      <workItem from="1708704311869" duration="684000" />
+      <workItem from="1708785680701" duration="1089000" />
+      <workItem from="1708789163328" duration="2541000" />
+      <workItem from="1708848527298" duration="2076000" />
+      <workItem from="1708851005270" duration="13038000" />
+      <workItem from="1708878244759" duration="1140000" />
+      <workItem from="1708918631528" duration="128000" />
+      <workItem from="1708918818946" duration="217000" />
+      <workItem from="1708919082734" duration="7665000" />
+      <workItem from="1708930061379" duration="1751000" />
+      <workItem from="1708939729969" duration="8173000" />
+      <workItem from="1709004913738" duration="4075000" />
+      <workItem from="1709016362503" duration="9895000" />
+      <workItem from="1709030376091" duration="1427000" />
+      <workItem from="1709034542913" duration="137000" />
+      <workItem from="1709038552711" duration="623000" />
+      <workItem from="1709039196158" duration="1740000" />
+      <workItem from="1709048047393" duration="924000" />
+      <workItem from="1709048996384" duration="1244000" />
+      <workItem from="1709124841056" duration="43000" />
+      <workItem from="1709124900893" duration="4059000" />
+      <workItem from="1709129732232" duration="3052000" />
+      <workItem from="1709287883599" duration="720000" />
+      <workItem from="1709309883502" duration="1593000" />
+      <workItem from="1709311977577" duration="344000" />
+      <workItem from="1709359078848" duration="2979000" />
+      <workItem from="1709397009066" duration="2937000" />
+      <workItem from="1709450803108" duration="1913000" />
+      <workItem from="1709461764427" duration="18000" />
+      <workItem from="1709481973400" duration="4316000" />
+      <workItem from="1709532507193" duration="80000" />
+      <workItem from="1709532589155" duration="15370000" />
+      <workItem from="1709713645802" duration="4636000" />
+      <workItem from="1709783385497" duration="1379000" />
+      <workItem from="1709816010818" duration="8150000" />
+      <workItem from="1709875709920" duration="1068000" />
+      <workItem from="1709918957217" duration="171000" />
+      <workItem from="1709958467175" duration="639000" />
+      <workItem from="1710100508580" duration="716000" />
+      <workItem from="1710166431901" duration="525000" />
+      <workItem from="1710182474427" duration="157000" />
+      <workItem from="1710225429556" duration="797000" />
+      <workItem from="1710580123179" duration="10453000" />
+      <workItem from="1710664326927" duration="2196000" />
+      <workItem from="1710913318277" duration="12173000" />
+      <workItem from="1710942111416" duration="9384000" />
+      <workItem from="1710992445395" duration="601000" />
+      <workItem from="1710993147418" duration="301000" />
+      <workItem from="1711010281398" duration="3782000" />
+      <workItem from="1711020652020" duration="7476000" />
+      <workItem from="1711093221491" duration="5874000" />
+      <workItem from="1711122707424" duration="5175000" />
+      <workItem from="1711166484420" duration="7590000" />
+      <workItem from="1711245684972" duration="454000" />
+      <workItem from="1711289234298" duration="739000" />
+      <workItem from="1711339064125" duration="514000" />
+      <workItem from="1711343841639" duration="5892000" />
+      <workItem from="1711373035137" duration="6104000" />
+      <workItem from="1711433339412" duration="4294000" />
+      <workItem from="1711513990687" duration="4930000" />
+      <workItem from="1711607596149" duration="338000" />
+      <workItem from="1711608550128" duration="726000" />
+      <workItem from="1711642267001" duration="1166000" />
+      <workItem from="1711690736551" duration="631000" />
+      <workItem from="1711813878945" duration="7322000" />
+      <workItem from="1711870880928" duration="2351000" />
+      <workItem from="1711888168837" duration="946000" />
+      <workItem from="1711892031423" duration="1530000" />
+      <workItem from="1711979437448" duration="3669000" />
+      <workItem from="1712047550900" duration="3932000" />
+      <workItem from="1712074437822" duration="534000" />
+      <workItem from="1712122052000" duration="1604000" />
+      <workItem from="1714895126324" duration="5006000" />
+      <workItem from="1719295228515" duration="3162000" />
+      <workItem from="1719479098644" duration="3224000" />
+      <workItem from="1719554838611" duration="649000" />
+      <workItem from="1719572760007" duration="1379000" />
+      <workItem from="1719906274614" duration="647000" />
+      <workItem from="1720070502101" duration="9713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/models_adpater_backup/trihit_adapter_pit_v1.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/models_adpater_backup/trihit_adapter_pit_v1.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/trihit_adapter_sdt_v1.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data/cifar_preprocess/convert2hsi.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/trihit_adapter_sdt_s3.py</url>
+          <line>201</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_dist.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/engine.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$mat2npy.coverage" NAME="mat2npy Coverage Results" MODIFIED="1708926843970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/hsi_preprocess" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$model_test.coverage" NAME="model_test Coverage Results" MODIFIED="1708691038028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$train_dist.coverage" NAME="train_dist Coverage Results" MODIFIED="1709132509004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$eval_dp.coverage" NAME="eval_dp Coverage Results" MODIFIED="1711980258269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$train_adapter.coverage" NAME="train_adapter Coverage Results" MODIFIED="1709129910593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$sample_distribution.coverage" NAME="sample_distribution Coverage Results" MODIFIED="1709451450386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/hsi_preprocess" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$convert2rgb_cifar100.coverage" NAME="convert2rgb_cifar100 Coverage Results" MODIFIED="1708691524731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/cifar_preprocess" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$convert2rgb_cifar10.coverage" NAME="convert2rgb_cifar10 Coverage Results" MODIFIED="1708691476105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/cifar_preprocess" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$convert2hsi.coverage" NAME="convert2hsi Coverage Results" MODIFIED="1711821439771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/cifar_preprocess" />
+    <SUITE FILE_PATH="coverage/TriHiT_adapter_xxz$mat2npy_paviac.coverage" NAME="mat2npy_paviac Coverage Results" MODIFIED="1708926833988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/hsi_preprocess" />
+  </component>
+</project>
