@@ -1,7 +1,6 @@
 # Bridging Sensor Gaps via Attention Gated Tuning for Hyperspectral Image Classification
 
-Xizhe Xue, Haokui Zhang, Rong Xiao, Ying Li，Zongwen Bai, Mike Zheng Shou
-
+Xizhe Xue, Haokui Zhang, Zongwen Bai, Ying Li*
 [[`arXiv`](https://arxiv.org/abs/2309.12865)] [[`BibTeX`](#CitingAGT)]
 
 <div align="center"
@@ -132,7 +131,7 @@ If you use AGT in your research or wish to refer to the baseline results publish
 ```BibTeX
 @misc{xue2023bridgingsensorgapssingledirection,
       title={Bridging Sensor Gaps via Attention Gated Tuning for Hyperspectral Image Classification}, 
-      author={Xizhe Xue and Haokui Zhang and Rong Xiao and Ying Li and Zongwen Bai and Mike Zheng Shou},
+      author={Xizhe Xue and Haokui Zhang and Zongwen Bai and Ying Li},
       year={2023},
       eprint={2309.12865},
       archivePrefix={arXiv},
